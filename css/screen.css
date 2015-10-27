@@ -1,0 +1,131 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* End reset */
+.light {
+  background-color: #fff; }
+
+.medium {
+  background-color: #e6e6e6; }
+
+.dark {
+  background-color: #000; }
+
+/* End colors */
+/* End fonts */
+/* End breaks */
+.wrapper {
+  min-width: 400px; }
+
+header {
+  position: relative;
+  padding: 0 2em; }
+  header .logo, header .menu-wrapper, header .newsletter {
+    float: left; }
+
+.main {
+  clear: both;
+  padding: 0 2em; }
+
+footer {
+  padding: 0 2em; }
+
+/* End structure */
+/* End content */
+.logo {
+  font-family: "bebas_neuebold", sans-serif;
+  font-size: 4em; }
+  @media all and (min-width: 770px) {
+    .logo {
+      margin-left: 30px;
+      font-size: 9em; } }
+
+.tagline {
+  color: #ee135c;
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .tagline {
+      display: block; } }
+
+#search {
+  background-color: #000;
+  border: 0;
+  font-size: 1.5em;
+  padding: .5em 1.5em;
+  outline: 0;
+  width: 100%; }
+
+.newsletter {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .newsletter {
+      display: block; } }
+
+.tweets {
+  display: none; }
+  .tweets i.fa-twitter {
+    color: #ee135c;
+    font-size: 3em; }
+
+.issue {
+  border-bottom: 1em solid #fff; }
+  .issue:hover {
+    border-bottom-color: #ee135c; }
+
+.buy-issue {
+  display: none; }
