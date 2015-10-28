@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$break-small: 770px;
+$break-med: 870px;
+$break-large: 1000px;
+
+.wrapper{
+	min-width: 400px;
+}
+
+header {
+	position: relative;
+	padding: 0 2em;
+	.logo, .menu-wrapper, .newsletter {
+		float: left;
+	}
+}
+
+.main {
+	clear: both;
+	padding: 0 2em;
+	position: relative;
+	padding-top: 2em;
+}
+
+footer {
+	padding: 0 2em;
+}
+
+//End structure

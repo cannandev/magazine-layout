@@ -1,0 +1,19 @@
+
+$brand: #ee135c;
+$dark: #000;
+$light: #fff;
+$medium: darken($light, 10%);
+
+.light {
+	background-color: $light;	
+}
+
+.medium {
+	background-color: $medium;
+}
+
+.dark {
+	background-color: $dark;
+}
+
+//End colors

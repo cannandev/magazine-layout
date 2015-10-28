@@ -1,84 +1,9 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
+@import "layout";
+@import "colors";
+@import "fonts";
 
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/*img {
-	width: 100%;
-	height: auto;
-}*/
-
-/* End reset */
-
-$brand: #ee135c;
-$dark: #000;
-$light: #fff;
-$medium: darken($light, 10%);
-
-.light {
-	background-color: $light;	
-}
-
-.medium {
-	background-color: $medium;
-}
-
-.dark {
-	background-color: $dark;
-}
-
-/* End colors */
-
-$brand-font: 'bebas_neuebold', sans-serif;
-$serif: serif;
-$sans: sans-serif;
-
-/* End fonts */
-
-$break-small: 770px;
-$break-med: 870px;
-$break-large: 1000px;
-
-/* End breaks */
-
-.wrapper{
-	min-width: 400px;
-}
-
-header {
-	position: relative;
-	padding: 0 2em;
-	.logo, .menu-wrapper, .newsletter {
-		float: left;
-	}
-}
-
-.main {
-	clear: both;
-	padding: 0 2em;
-	position: relative;
-	padding-top: 2em;
-}
-
-footer {
-	padding: 0 2em;
-}
-
-
-/* End structure */
-
-
-/* End content */
+/* Begin content styles */
 
 .logo {
 	font-family: $brand-font;
