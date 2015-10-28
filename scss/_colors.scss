@@ -1,19 +1,22 @@
 
-$brand: #ee135c;
+$brand: #13D628;
 $dark: #000;
 $light: #fff;
 $medium: darken($light, 10%);
 
 .light {
-	background-color: $light;	
+	background-color: $light;
+	color: $medium;	
 }
 
 .medium {
 	background-color: $medium;
+	color: $dark;
 }
 
 .dark {
 	background-color: $dark;
+	color: $light;
 }
 
 //End colors

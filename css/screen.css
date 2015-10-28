@@ -57,27 +57,31 @@ html {
 
 header {
   position: relative;
-  padding: 0 2em; }
+  padding: 0 1em; }
   header .logo, header .menu-wrapper, header .newsletter {
     float: left; }
 
 .main {
   clear: both;
-  padding: 0 2em;
+  padding: 0 1em;
   position: relative;
   padding-top: 2em; }
 
 footer {
-  padding: 0 2em; }
+  padding: 1.5em 1em 4em 1.5em;
+  position: relative; }
 
 .light {
-  background-color: #fff; }
+  background-color: #fff;
+  color: #e6e6e6; }
 
 .medium {
-  background-color: #e6e6e6; }
+  background-color: #e6e6e6;
+  color: #000; }
 
 .dark {
-  background-color: #000; }
+  background-color: #000;
+  color: #fff; }
 
 /* Begin content styles */
 .logo {
@@ -90,7 +94,7 @@ footer {
       font-size: 9em; } }
 
 .tagline {
-  color: #ee135c;
+  color: #13D628;
   display: none; }
   @media all and (min-width: 1000px) {
     .tagline {
@@ -123,7 +127,7 @@ footer {
 .tweets {
   display: none; }
   .tweets i.fa-twitter {
-    color: #ee135c;
+    color: #13D628;
     font-size: 3em; }
 
 .issue {
@@ -136,7 +140,7 @@ footer {
   margin-right: -5px;
   margin-bottom: 4em; }
   .issue:hover {
-    border-bottom-color: #ee135c; }
+    border-bottom-color: #13D628; }
   .issue img {
     height: 100%;
     width: auto;
@@ -150,3 +154,31 @@ footer {
 
 .buy-issue {
   display: none; }
+
+.copy {
+  color: #666666;
+  font-family: sans-serif;
+  font-size: .7em;
+  position: absolute;
+  bottom: 4em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.company-nav {
+  font-family: sans-serif;
+  margin: 1em 0; }
+  .company-nav a {
+    color: #fff;
+    display: block;
+    padding: .3em 0;
+    text-decoration: none; }
+
+.social-links {
+  list-style-type: none;
+  margin: 1.5em 0; }
+  .social-links li {
+    display: inline-block;
+    width: 25px; }
+  .social-links a {
+    color: #fff;
+    display: block; }

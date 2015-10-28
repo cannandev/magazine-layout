@@ -16,7 +16,7 @@ $break-large: 1000px;
 
 header {
 	position: relative;
-	padding: 0 2em;
+	padding: 0 1em;
 	.logo, .menu-wrapper, .newsletter {
 		float: left;
 	}
@@ -24,13 +24,14 @@ header {
 
 .main {
 	clear: both;
-	padding: 0 2em;
+	padding: 0 1em;
 	position: relative;
 	padding-top: 2em;
 }
 
 footer {
-	padding: 0 2em;
+	padding: 1.5em 1em 4em 1.5em;
+	position: relative;
 }
 
 //End structure

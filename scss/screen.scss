@@ -87,3 +87,37 @@
 .buy-issue {
 	display:none;
 }
+
+.copy {
+	color: darken($light, 60%);
+	font-family: $sans;
+	font-size: .7em;
+	position: absolute;
+	bottom: 4em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.company-nav {
+	font-family: $sans;
+	margin: 1em 0;
+	a {
+		color: $light;
+		display: block;
+		padding: .3em 0;
+		text-decoration: none;
+	}
+}
+
+.social-links {
+	list-style-type: none;
+	margin: 1.5em 0;
+	li {
+		display: inline-block;
+		width: 25px;
+	}
+	a {
+		color: $light;
+		display: block;
+	}
+}
