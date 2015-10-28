@@ -45,6 +45,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+/* Begin layout styles */
 html {
   box-sizing: border-box;
   font-size: 16px; }
@@ -131,7 +132,7 @@ footer {
 
 .tweets {
   display: none; }
-  .tweets i.fa-twitter {
+  .tweets .fa-twitter {
     color: #13D628;
     font-size: 3em; }
 
@@ -190,7 +191,6 @@ footer {
         padding: 0 .3em; } }
 
 .social-links {
-  list-style-type: none;
   margin: 1.5em 0; }
   .social-links li {
     display: inline-block;

@@ -53,7 +53,7 @@
 
 .tweets {
 	display: none;
-	i.fa-twitter {
+	.fa-twitter {
 		color: $brand;
 		font-size: 3em;
 	}
@@ -123,7 +123,6 @@
 }
 
 .social-links {
-	list-style-type: none;
 	margin: 1.5em 0;
 	li {
 		display: inline-block;
