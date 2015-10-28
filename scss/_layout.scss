@@ -30,8 +30,14 @@ header {
 }
 
 footer {
-	padding: 1.5em 1em 4em 1.5em;
+	padding: 2.5em 1.5em;
 	position: relative;
+	@media all and (min-width: $break-large){
+		min-height: 240px;
+		.menu-wrapper {
+			float: right;
+		}
+	}
 }
 
 //End structure

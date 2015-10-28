@@ -92,21 +92,34 @@
 	color: darken($light, 60%);
 	font-family: $sans;
 	font-size: .7em;
-	position: absolute;
-	bottom: 4em;
+	transition: all ease .2s;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	
+	@media all and (min-width: $break-large){
+		font-size: 1em;
+		margin: 0 3em;
+	}
 }
 
 .company-nav {
 	font-family: $sans;
-	margin: 1em 0;
+	font-size: .9em;
+	margin: 0;
 	a {
 		color: $light;
 		display: block;
 		padding: .3em 0;
 		text-decoration: none;
 	}
+	@media all and (min-width: $break-large){
+		float: left;
+		margin: 0 2em;
+		a{
+			display: inline-block;
+			padding: 0 .3em;
+		}
+	}	
 }
 
 .social-links {
@@ -119,5 +132,10 @@
 	a {
 		color: $light;
 		display: block;
+	}
+
+	@media all and (min-width: $break-large){
+		float: left;
+		margin: 0; 
 	}
 }
