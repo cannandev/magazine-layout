@@ -56,6 +56,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+/*img {
+	width: 100%;
+	height: auto;
+}*/
 /* End reset */
 .light {
   background-color: #fff; }
@@ -80,7 +84,9 @@ header {
 
 .main {
   clear: both;
-  padding: 0 2em; }
+  padding: 0 2em;
+  position: relative;
+  padding-top: 2em; }
 
 footer {
   padding: 0 2em; }
@@ -89,7 +95,8 @@ footer {
 /* End content */
 .logo {
   font-family: "bebas_neuebold", sans-serif;
-  font-size: 4em; }
+  font-size: 4em;
+  transition: all ease .4s; }
   @media all and (min-width: 770px) {
     .logo {
       margin-left: 30px;
@@ -102,6 +109,10 @@ footer {
     .tagline {
       display: block; } }
 
+#search-toggle {
+  cursor: pointer;
+  padding: .5em; }
+
 #search {
   background-color: #000;
   border: 0;
@@ -110,7 +121,8 @@ footer {
   padding: .5em 1.5em 0;
   outline: 0;
   width: 100%;
-  height: .6em; }
+  height: .6em;
+  transition: all ease .2s; }
   #search.active {
     height: auto;
     padding-bottom: .5em; }
@@ -128,9 +140,26 @@ footer {
     font-size: 3em; }
 
 .issue {
-  border-bottom: 1em solid #fff; }
+  border-bottom: 1em solid #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 197px;
+  text-align: center;
+  width: 50%;
+  margin-right: -5px;
+  margin-bottom: 4em; }
   .issue:hover {
     border-bottom-color: #ee135c; }
+  .issue img {
+    height: 100%;
+    width: auto;
+    vertical-align: bottom; }
+  @media all and (min-width: 770px) {
+    .issue {
+      width: 25%; } }
+  @media all and (min-width: 1000px) {
+    .issue {
+      width: 20%; } }
 
 .buy-issue {
   display: none; }

@@ -13,6 +13,11 @@ html {
   box-sizing: inherit;
 }
 
+/*img {
+	width: 100%;
+	height: auto;
+}*/
+
 /* End reset */
 
 $brand: #ee135c;
@@ -61,6 +66,8 @@ header {
 .main {
 	clear: both;
 	padding: 0 2em;
+	position: relative;
+	padding-top: 2em;
 }
 
 footer {
@@ -76,6 +83,7 @@ footer {
 .logo {
 	font-family: $brand-font;
 	font-size: 4em;
+	transition: all ease .4s;
 	@media all and (min-width: $break-small){
 		margin-left: 30px;
 		font-size: 9em;
@@ -90,6 +98,11 @@ footer {
 	}
 }
 
+#search-toggle {
+	cursor: pointer;
+	padding: .5em;
+}
+
 #search {
 	background-color: $dark;
 	border: 0;
@@ -99,6 +112,7 @@ footer {
 	outline: 0;
 	width: 100%;
 	height: .6em;
+	transition: all ease .2s;
 	&.active {
 		height: auto;
 		padding-bottom: .5em;
@@ -122,8 +136,26 @@ footer {
 
 .issue {
 	border-bottom: 1em solid $light;
+	cursor: pointer;
+	display: inline-block;
+	height: 197px;
+	text-align: center;
+	width: 50%;
+	margin-right: -5px;
+	margin-bottom: 4em;
 	&:hover {
 		border-bottom-color: $brand;
+	}
+	img {
+		height: 100%;
+		width: auto;
+		vertical-align: bottom;
+	}
+	@media all and (min-width: $break-small){
+		width: 25%;
+	}	
+	@media all and (min-width: $break-large){
+		width: 20%;
 	}
 }
 
