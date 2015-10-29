@@ -23,23 +23,49 @@
 	}
 }
 
+.main-menu {
+	margin-top: 1em;
+	li {
+		display: none;
+		font-family: $brand-font;
+		font-size: 1.5em;
+		margin-top: .2em;
+		a {
+			color: $dark;
+			text-decoration: none;
+			&:hover{
+				color: $brand;
+			}
+		}
+	}
+}
+
+#main-menu-toggle {
+	display: inline-block;
+}
+
 #search-toggle {
 	cursor: pointer;
+	display: inline-block;
 	padding: .5em;
+	&:hover {
+		color: $brand;
+	}
 }
 
 #search {
 	background-color: $dark;
 	border: 0;
 	color: $light;
-	font-size: 1.5em;
-	padding: .5em 1.5em 0;
+	font-size: 1.5em;			
+	padding: .4em 1.5em 0;
 	outline: 0;
 	width: 100%;
-	height: .6em;
+	height: .25em;
 	transition: all ease .2s;
 	&.active {
 		height: auto;
+		padding-top: .5em;
 		padding-bottom: .5em;
 	}
 }

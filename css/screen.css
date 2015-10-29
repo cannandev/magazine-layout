@@ -58,9 +58,14 @@ html {
 
 header {
   position: relative;
-  padding: 0 1em; }
-  header .logo, header .menu-wrapper, header .newsletter {
+  padding: 1em 1em 0 1em; }
+  header .logo, header .newsletter {
     float: left; }
+  header .menu-wrapper {
+    float: right; }
+  @media all and (min-width: 1000px) {
+    header .menu-wrapper {
+      float: left; } }
 
 .main {
   clear: both;
@@ -106,22 +111,42 @@ footer {
     .tagline {
       display: block; } }
 
+.main-menu {
+  margin-top: 1em; }
+  .main-menu li {
+    display: none;
+    font-family: "bebas_neuebold", sans-serif;
+    font-size: 1.5em;
+    margin-top: .2em; }
+    .main-menu li a {
+      color: #000;
+      text-decoration: none; }
+      .main-menu li a:hover {
+        color: #13D628; }
+
+#main-menu-toggle {
+  display: inline-block; }
+
 #search-toggle {
   cursor: pointer;
+  display: inline-block;
   padding: .5em; }
+  #search-toggle:hover {
+    color: #13D628; }
 
 #search {
   background-color: #000;
   border: 0;
   color: #fff;
   font-size: 1.5em;
-  padding: .5em 1.5em 0;
+  padding: .4em 1.5em 0;
   outline: 0;
   width: 100%;
-  height: .6em;
+  height: .25em;
   transition: all ease .2s; }
   #search.active {
     height: auto;
+    padding-top: .5em;
     padding-bottom: .5em; }
 
 .newsletter {

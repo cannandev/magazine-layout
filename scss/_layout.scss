@@ -18,11 +18,19 @@ $break-large: 1000px;
 
 header {
 	position: relative;
-	padding: 0 1em;
-	.logo, .menu-wrapper, .newsletter {
-		float: left;
+	padding: 1em 1em 0 1em;
+	.logo, .newsletter {
+		float: left;	
 	}
-}
+	.menu-wrapper {
+		float: right;
+	}
+	@media all and (min-width: $break-large) {
+		.menu-wrapper{
+			float: left;
+		}
+	}
+}	
 
 .main {
 	clear: both;
