@@ -117,12 +117,16 @@ footer {
     display: none;
     font-family: "bebas_neuebold", sans-serif;
     font-size: 1.5em;
-    margin-top: .2em; }
+    margin-top: .2em;
+    margin-left: 1em; }
     .main-menu li a {
       color: #000;
       text-decoration: none; }
       .main-menu li a:hover {
         color: #13D628; }
+    @media all and (min-width: 770px) {
+      .main-menu li:not(:first-child):not(:nth-child(4)) {
+        display: inline-block; } }
 
 #main-menu-toggle {
   display: inline-block; }
