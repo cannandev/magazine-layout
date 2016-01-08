@@ -1,0 +1,14 @@
+name = Goop
+description = This theme is based on the Good Magazine responsive layout. It can be used to display magazine issues or other products.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/screen.css
+
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[header] = Header
+regions[content] = Main Content
+regions[footer] = Footer
+
+
