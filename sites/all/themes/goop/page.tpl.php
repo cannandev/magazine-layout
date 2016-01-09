@@ -24,7 +24,7 @@ $copy_year = format_date(time(), 'custom', 'Y');
         <h2 class="tagline"><?php print $site_slogan; ?></h2>
         <?php endif; ?>
         <?php if ($main_menu): ?>
-        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('main-menu', 'links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
+        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('main-menu', 'links', 'inline', 'clearfix')))); ?>
         <?php endif; ?>
       </div>
       <div class="newsletter">
