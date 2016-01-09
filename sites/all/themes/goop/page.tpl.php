@@ -6,6 +6,7 @@
  *
  * @ingroup themeable
  */
+$copy_year = format_date(time(), 'custom', 'Y');
 ?>
 
   <div id="page-wrapper" class="wrapper">
@@ -38,33 +39,32 @@
         <i class="fa fa-twitter"></i>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
-      <input type="text" id="search" placeholder="Search..."/>
 
       <?php print render($page['header']); ?>
+
+      <input type="text" id="search" placeholder="Search..."/>
 
     </header> <!-- /#header -->
 
     <?php print $messages; ?>
 
-    <div id="main-wrapper"><div id="main" class="clearfix">
+    <div id="main" class="main clearfix">
 
-      <div id="content" class="column"><div class="section">
-        <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
-        <a id="main-content"></a>
-        <?php print render($title_prefix); ?>
-        <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-        <?php print render($title_suffix); ?>
-        <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
-        <?php print render($page['help']); ?>
-        <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-        <?php print render($page['content']); ?>
-        <?php print $feed_icons; ?>
-      </div></div> <!-- /.section, /#content -->
+      <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
+      <?php print render($title_prefix); ?>
+      <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
+      <?php print render($title_suffix); ?>
+      <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+      <?php print render($page['help']); ?>
+      <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+      
+      <?php print render($page['content']); ?>
 
-    </div></div> <!-- /#main, /#main-wrapper -->
+    </div> <!-- /#main -->
 
-    <div id="footer"><div class="section">
+    <footer id="footer" class="dark">
       <?php print render($page['footer']); ?>
-    </div></div> <!-- /.section, /#footer -->
+      <div class="copy">&copy; <?php print $copy_year; ?> GOOP Worldwide Inc</div>  
+    </footer> <!-- /#footer -->
 
   </div> <!-- /#page-wrapper -->
