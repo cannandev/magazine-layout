@@ -8,40 +8,41 @@
  */
 ?>
 
-  <div id="page-wrapper"><div id="page">
+  <div id="page-wrapper" class="wrapper">
 
-    <div id="header"><div class="section clearfix">
-      <h1>Hello!</h1>
-
-      <?php if ($site_name || $site_slogan): ?>
-        <div id="name-and-slogan">
-          <?php if ($site_name): ?>
-            <?php if ($title): ?>
-              <div id="site-name"><strong>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </strong></div>
-            <?php else: /* Use h1 when the content title is empty */ ?>
-              <h1 id="site-name">
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </h1>
-            <?php endif; ?>
-          <?php endif; ?>
-
-          <?php if ($site_slogan): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
-        </div> <!-- /#name-and-slogan -->
+    <header id="header" class="medium">
+      <?php if ($site_name): ?>
+      <h1 class="logo">
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+          <?php print $site_name; ?>
+        </a>
+      </h1>
       <?php endif; ?>
+      <div class="menu-wrapper">
+        <?php if ($site_slogan): ?>
+        <h2 class="tagline"><?php print $site_slogan; ?></h2>
+        <?php endif; ?>
+        <?php if ($main_menu): ?>
+        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('main-menu', 'links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
+        <?php endif; ?>
+      </div>
+      <div class="newsletter">
+        <h3>The Daily GOOP</h3>
+        <p>Sign up to receive the best of GOOP delivered to your each and every weekday.</p>
+        <form id="newsletter">
+          <input type="email" class="email" placeholder="Email address" required>
+          <button type="submit" class="button">Sign Up</button> 
+        </form>
+      </div>
+      <div class="tweets">
+        <i class="fa fa-twitter"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <input type="text" id="search" placeholder="Search..."/>
 
       <?php print render($page['header']); ?>
 
-    </div></div> <!-- /.section, /#header -->
-
-    <?php if ($main_menu || $secondary_menu): ?>
-      <div id="navigation"><div class="section">
-        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
-      </div></div> <!-- /.section, /#navigation -->
-    <?php endif; ?>
+    </header> <!-- /#header -->
 
     <?php print $messages; ?>
 
@@ -66,4 +67,4 @@
       <?php print render($page['footer']); ?>
     </div></div> <!-- /.section, /#footer -->
 
-  </div></div> <!-- /#page, /#page-wrapper -->
+  </div> <!-- /#page-wrapper -->
