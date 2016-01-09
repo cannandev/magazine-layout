@@ -3,7 +3,10 @@ description = This theme is based on the Good Magazine responsive layout. It can
 package = Core
 version = VERSION
 core = 7.x
+
 stylesheets[all][] = css/screen.css
+stylesheets[all][] = fonts/BebasNeue/stylesheet.css
+stylesheets[system][] = system.menus.css
 
 regions[highlighted] = Highlighted
 regions[help] = Help
