@@ -8,6 +8,8 @@ stylesheets[all][] = css/screen.css
 stylesheets[all][] = fonts/BebasNeue/stylesheet.css
 stylesheets[system][] = system.menus.css
 
+scripts[] = js/main.js
+
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[header] = Header

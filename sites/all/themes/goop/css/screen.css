@@ -125,11 +125,13 @@ footer {
       .main-menu li a:hover {
         color: #13D628; }
     @media all and (min-width: 770px) {
-      .main-menu li:not(:first-child):not(:nth-child(4)) {
+      .main-menu li:not(:nth-child(6)) {
         display: inline-block; } }
 
-#main-menu-toggle {
-  display: inline-block; }
+@media all and (max-width: 770px) {
+  #main-menu-toggle,
+  .main-menu li:nth-child(6) {
+    display: inline-block; } }
 
 #search-toggle {
   cursor: pointer;
@@ -215,7 +217,7 @@ footer {
     .company-nav {
       float: left;
       margin: 0 2em; }
-      .company-nav a {
+      .company-nav li {
         display: inline-block;
         padding: 0 .3em; } }
 

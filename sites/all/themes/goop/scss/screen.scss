@@ -39,15 +39,18 @@
 			}
 		}
 		@media all and (min-width: $break-small){
-			&:not(:first-child):not(:nth-child(4)){
+			&:not(:nth-child(6)){
 				display: inline-block;
 			}
 		}
 	}
 }
 
-#main-menu-toggle {
-	display: inline-block;
+#main-menu-toggle, 
+.main-menu li:nth-child(6) {
+	@media all and (max-width: $break-small){
+		display: inline-block;
+	}
 }
 
 #search-toggle {
@@ -147,7 +150,7 @@
 	@media all and (min-width: $break-large){
 		float: left;
 		margin: 0 2em;
-		a{
+		li {
 			display: inline-block;
 			padding: 0 .3em;
 		}
