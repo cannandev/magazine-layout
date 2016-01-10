@@ -8,6 +8,10 @@
 .logo {
 	font-family: $brand-font;
 	font-size: 4em;
+	a {
+		color: $dark;
+		text-decoration: none;
+	}
 	transition: all ease .4s;
 	@media all and (min-width: $break-small){
 		margin-left: 30px;

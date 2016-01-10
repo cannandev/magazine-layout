@@ -99,6 +99,9 @@ footer {
   font-family: "bebas_neuebold", sans-serif;
   font-size: 4em;
   transition: all ease .4s; }
+  .logo a {
+    color: #000;
+    text-decoration: none; }
   @media all and (min-width: 770px) {
     .logo {
       margin-left: 30px;
