@@ -48,7 +48,7 @@ $copy_year = format_date(time(), 'custom', 'Y');
 
     <?php print $messages; ?>
 
-    <div id="main" class="main clearfix">
+    <div id="main" class="main medium">
 
       <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
       <?php print render($title_prefix); ?>

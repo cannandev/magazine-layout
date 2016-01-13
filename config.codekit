@@ -11108,6 +11108,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/sites\/all\/themes\/goop\/views-view-fields--issues-list.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sites\/all\/themes\/goop\/views-view-fields--issues-list.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sites\/default\/default.settings.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -11135,6 +11144,116 @@
 		"initialSize": 269280,
 		"inputAbbreviatedPath": "\/sites\/default\/files\/field\/image\/photo-1450849608880-6f787542c88a.jpeg",
 		"outputAbbreviatedPath": "\/sites\/default\/files\/field\/image\/photo-1450849608880-6f787542c88a.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_Gx4MuX.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 748,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_Gx4MuX_0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 748,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX_0.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX_0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_Gx4MuX_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 748,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX_1.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_Gx4MuX_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 748,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX_2.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Gx4MuX_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_Uv12pR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3869,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Uv12pR.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_Uv12pR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_v0dNXu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_v0dNXu_0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu_0.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu_0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_v0dNXu_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu_1.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_v0dNXu_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu_2.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_v0dNXu_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/imagefield_WWfcdN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3087,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/imagefield_WWfcdN.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/imagefield_WWfcdN.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11168,6 +11287,83 @@
 		"initialSize": 1222,
 		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/field\/image\/photo-1450849608880-6f787542c88a.jpeg",
 		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/field\/image\/photo-1450849608880-6f787542c88a.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5800,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_0.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5800,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_1.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5800,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_2.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_Gx4MuX_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1499,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_0.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1499,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_1.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1499,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_2.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_v0dNXu_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_WWfcdN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1281,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_WWfcdN.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/imagefield_WWfcdN.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
