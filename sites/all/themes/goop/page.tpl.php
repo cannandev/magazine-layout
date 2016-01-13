@@ -6,7 +6,6 @@
  *
  * @ingroup themeable
  */
-$copy_year = format_date(time(), 'custom', 'Y');
 ?>
 
   <div id="page-wrapper" class="wrapper">
