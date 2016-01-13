@@ -40,21 +40,27 @@
 		font-size: 1.5em;
 		margin-top: .2em;
 		margin-left: 1em;
+		@media all and (min-width: $break-large){
+			font-size: 1.2em;
+		}
+		@media all and (min-width: $break-xlarge){
+			font-size: 1.6em;
+		}					
+		@media all and (min-width: $break-small){
+			&:not(:nth-child(6)){
+				display: inline-block;
+			}
+			&:first-child {
+				display: none;
+			}			
+		}
 		a {
 			color: $dark;
 			text-decoration: none;
 			&:hover{
 				color: $brand;
 			}
-		}
-		@media all and (min-width: $break-large){
-			font-size: 1.6em;
 		}		
-		@media all and (min-width: $break-small){
-			&:not(:nth-child(6)){
-				display: inline-block;
-			}
-		}
 	}
 }
 
@@ -96,9 +102,9 @@
 	@media all and (min-width: $break-large) {
 		display: block;
 		padding-left: 25px;
+		margin-left: 25px;
 		position: absolute;
 		right: 0;
-		width: 20%;
 	}
 	h3 {
 		border-bottom: 1px solid darken($medium, 10%);

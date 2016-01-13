@@ -10,7 +10,8 @@ html {
 
 $break-small: 770px;
 $break-med: 870px;
-$break-large: 1000px;
+$break-large: 1015px;
+$break-xlarge: 1350px;
 
 .wrapper{
 	min-width: 400px;
@@ -24,10 +25,10 @@ header {
 	}
 	.menu-wrapper {
 		float: right;
-	}
-	@media all and (min-width: $break-large) {
-		.menu-wrapper{
+		@media all and (min-width: $break-large) {
 			float: left;
+		}
+		@media all and (min-width: $break-xlarge) {
 			width: 60%;
 		}
 	}

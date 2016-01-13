@@ -63,10 +63,12 @@ header {
     float: left; }
   header .menu-wrapper {
     float: right; }
-  @media all and (min-width: 1000px) {
-    header .menu-wrapper {
-      float: left;
-      width: 60%; } }
+    @media all and (min-width: 1015px) {
+      header .menu-wrapper {
+        float: left; } }
+    @media all and (min-width: 1350px) {
+      header .menu-wrapper {
+        width: 60%; } }
 
 .main {
   clear: both;
@@ -77,7 +79,7 @@ header {
 footer {
   padding: 2.5em 1.5em;
   position: relative; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     footer {
       min-height: 240px; }
       footer .menu-wrapper {
@@ -116,7 +118,7 @@ footer {
   margin: 2em 1.2em 0 1.2em;
   padding-bottom: 1.2em;
   border-bottom: 1px solid #000; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     .tagline {
       display: block; } }
 
@@ -128,17 +130,22 @@ footer {
     font-size: 1.5em;
     margin-top: .2em;
     margin-left: 1em; }
+    @media all and (min-width: 1015px) {
+      .main-menu li {
+        font-size: 1.2em; } }
+    @media all and (min-width: 1350px) {
+      .main-menu li {
+        font-size: 1.6em; } }
+    @media all and (min-width: 770px) {
+      .main-menu li:not(:nth-child(6)) {
+        display: inline-block; }
+      .main-menu li:first-child {
+        display: none; } }
     .main-menu li a {
       color: #000;
       text-decoration: none; }
       .main-menu li a:hover {
         color: #13D628; }
-    @media all and (min-width: 1000px) {
-      .main-menu li {
-        font-size: 1.6em; } }
-    @media all and (min-width: 770px) {
-      .main-menu li:not(:nth-child(6)) {
-        display: inline-block; } }
 
 @media all and (max-width: 770px) {
   #main-menu-toggle,
@@ -169,13 +176,13 @@ footer {
 
 .newsletter {
   display: none; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     .newsletter {
       display: block;
       padding-left: 25px;
+      margin-left: 25px;
       position: absolute;
-      right: 0;
-      width: 20%; } }
+      right: 0; } }
   .newsletter h3 {
     border-bottom: 1px solid #d9dee2;
     display: inline-block;
@@ -238,7 +245,7 @@ footer {
   @media all and (min-width: 770px) {
     .issue {
       width: 25%; } }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     .issue {
       width: 20%; } }
 
@@ -252,7 +259,7 @@ footer {
   transition: all ease .2s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     .copy {
       font-size: 1em;
       margin: 0 3em; } }
@@ -266,7 +273,7 @@ footer {
     display: block;
     padding: .3em 0;
     text-decoration: none; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     .company-nav {
       float: left;
       margin: 0 2em; }
@@ -282,7 +289,7 @@ footer {
   .social-links a {
     color: #fff;
     display: block; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 1015px) {
     .social-links {
       float: left;
       margin: 0; } }
