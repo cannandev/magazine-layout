@@ -2,7 +2,8 @@
 $brand: #13D628;
 $dark: #000;
 $light: #fff;
-$medium: darken($light, 10%);
+$medium-dark: lighten($dark, 70%);
+$medium: #F6F7F8;
 
 .light {
 	background-color: $light;

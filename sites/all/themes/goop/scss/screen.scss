@@ -8,6 +8,7 @@
 .logo {
 	font-family: $brand-font;
 	font-size: 4em;
+	margin-right: .2em;
 	a {
 		color: $dark;
 		text-decoration: none;
@@ -22,13 +23,17 @@
 .tagline {
 	color: $brand;
 	display: none;
+	font-size: 1.2em;
+	margin: 2em 1.2em 0 1.2em;
+	padding-bottom: 1.2em;
+	border-bottom: 1px solid $dark;
 	@media all and (min-width: $break-large) {
 		display: block;
 	}
 }
 
 .main-menu {
-	margin-top: 1em;
+	margin-top: .3em;
 	li {
 		display: none;
 		font-family: $brand-font;
@@ -42,6 +47,9 @@
 				color: $brand;
 			}
 		}
+		@media all and (min-width: $break-large){
+			font-size: 1.6em;
+		}		
 		@media all and (min-width: $break-small){
 			&:not(:nth-child(6)){
 				display: inline-block;
@@ -87,6 +95,53 @@
 	display: none;
 	@media all and (min-width: $break-large) {
 		display: block;
+		padding-left: 25px;
+		position: absolute;
+		right: 0;
+		width: 20%;
+	}
+	h3 {
+		border-bottom: 1px solid darken($medium, 10%);
+		display: inline-block;
+		font-family: $brand-font;
+		font-size: 2.2em;
+		line-height: .8em;
+		margin-left: .5em;
+		padding-bottom: .5em;
+		word-break: break-word;
+		width: 2em;
+		-webkit-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+	}
+	p {
+		color: $medium-dark;
+		display: inline-block;
+		font-size: .9em;
+		margin-left: 2.5em;
+		width: 130px;
+		
+	}
+	form {
+		clear: both;
+	}
+	input {
+		border: 1px solid darken($medium, 10%);
+		color: $medium-dark;
+		font-family: $sans;
+		font-size: .9em;
+		min-width: 200px;
+		padding: .5em .8em;
+		outline: 0;
+	}
+	button {
+		background-color: $brand;
+		border: 0;
+		border-bottom: 2px solid $brand;
+		color: $light;
+		font-size: .9em;
+		margin-left: -6px;
+		padding: .5em .8em;
 	}
 }
 

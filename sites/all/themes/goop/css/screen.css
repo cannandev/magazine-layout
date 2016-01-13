@@ -65,7 +65,8 @@ header {
     float: right; }
   @media all and (min-width: 1000px) {
     header .menu-wrapper {
-      float: left; } }
+      float: left;
+      width: 60%; } }
 
 .main {
   clear: both;
@@ -84,10 +85,10 @@ footer {
 
 .light {
   background-color: #fff;
-  color: #e6e6e6; }
+  color: #F6F7F8; }
 
 .medium {
-  background-color: #e6e6e6;
+  background-color: #F6F7F8;
   color: #000; }
 
 .dark {
@@ -98,6 +99,7 @@ footer {
 .logo {
   font-family: "bebas_neuebold", sans-serif;
   font-size: 4em;
+  margin-right: .2em;
   transition: all ease .4s; }
   .logo a {
     color: #000;
@@ -109,13 +111,17 @@ footer {
 
 .tagline {
   color: #13D628;
-  display: none; }
+  display: none;
+  font-size: 1.2em;
+  margin: 2em 1.2em 0 1.2em;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid #000; }
   @media all and (min-width: 1000px) {
     .tagline {
       display: block; } }
 
 .main-menu {
-  margin-top: 1em; }
+  margin-top: .3em; }
   .main-menu li {
     display: none;
     font-family: "bebas_neuebold", sans-serif;
@@ -127,6 +133,9 @@ footer {
       text-decoration: none; }
       .main-menu li a:hover {
         color: #13D628; }
+    @media all and (min-width: 1000px) {
+      .main-menu li {
+        font-size: 1.6em; } }
     @media all and (min-width: 770px) {
       .main-menu li:not(:nth-child(6)) {
         display: inline-block; } }
@@ -162,7 +171,48 @@ footer {
   display: none; }
   @media all and (min-width: 1000px) {
     .newsletter {
-      display: block; } }
+      display: block;
+      padding-left: 25px;
+      position: absolute;
+      right: 0;
+      width: 20%; } }
+  .newsletter h3 {
+    border-bottom: 1px solid #d9dee2;
+    display: inline-block;
+    font-family: "bebas_neuebold", sans-serif;
+    font-size: 2.2em;
+    line-height: .8em;
+    margin-left: .5em;
+    padding-bottom: .5em;
+    word-break: break-word;
+    width: 2em;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+  .newsletter p {
+    color: #b3b3b3;
+    display: inline-block;
+    font-size: .9em;
+    margin-left: 2.5em;
+    width: 130px; }
+  .newsletter form {
+    clear: both; }
+  .newsletter input {
+    border: 1px solid #d9dee2;
+    color: #b3b3b3;
+    font-family: sans-serif;
+    font-size: .9em;
+    min-width: 200px;
+    padding: .5em .8em;
+    outline: 0; }
+  .newsletter button {
+    background-color: #13D628;
+    border: 0;
+    border-bottom: 2px solid #13D628;
+    color: #fff;
+    font-size: .9em;
+    margin-left: -6px;
+    padding: .5em .8em; }
 
 .tweets {
   display: none; }
